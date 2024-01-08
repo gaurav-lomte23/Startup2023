@@ -1,0 +1,14 @@
+Set Custom Video Thumbnail In HTML
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Set Video Thumbnail In HTML</title>
+  </head>
+  <body>
+    <video width="640" height="360" controls poster="my-thumbnail.png">
+      <source src="my-video.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
